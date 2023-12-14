@@ -44,11 +44,7 @@
             <h1>CRISTÓBAL GONZÁLEZ</h1>
             <h2>Tecnico Superior en Desarrollo de Aplicaciones Multiplataforma</h2>
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-skype"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-solid fa-rss"></i></a>
+                <a href="http://www.linkedin.com/in/cristobal-gonzalez-0717072a4"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
         </div>
     </section>
@@ -132,7 +128,7 @@
                     </div>
                 </div>
             </div>
-            <button>
+            <button id="descargarBtn">
                 Descargar CV <i class="fa-solid fa-download"></i>
                 <span class="overlay"></span>
             </button>
@@ -392,10 +388,6 @@
                                 ubicación: Siete Aguas, Valencia
                             </li>
                             <li>
-                                <i class="fa-solid fa-mobile-screen"></i>
-                                Teléfono: 645 349 785
-                            </li>
-                            <li>
                                 <i class="fa-solid fa-envelope"></i>
                                 Email: gonzalezpallarescristobal@gmail.com
                             </li>
@@ -412,14 +404,16 @@
             <i class="fa-solid fa-angles-up"></i>
         </a>
         <div class="redes">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-skype"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#"><i class="fa-solid fa-rss"></i></a>
+            <a href="http://www.linkedin.com/in/cristobal-gonzalez-0717072a4"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
     </footer>
 
+    <script>
+        document.getElementById('descargarBtn').addEventListener('click', function() {
+            var win = window.open('curriculum.pdf', '_blank');
+            win.focus();
+        });
+    </script>
     <script src="script.js"></script>
 </body>
 
