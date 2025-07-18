@@ -9,6 +9,9 @@
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilo.css">
 </head>
 
@@ -37,7 +40,7 @@
     </div>
 
     <!-- SECCION INICIO -->
-    <section id="inicio" class="inicio">
+    <section id="inicio" class="inicio hidden">
         <div class="contenido-banner">
             <div class="contenedor-img">
                 <img src="img/hero.png" alt="">
@@ -51,7 +54,7 @@
     </section>
 
     <!-- SECCION SOBRE MI -->
-    <section id="sobremi" class="sobremi">
+    <section id="sobremi" class="sobremi hidden">
         <div class="contenido-seccion">
             <h2>Sobre Mí</h2>
             <p><span>Hola, soy Cristóbal González.</span>Como desarrollador multiplataforma con experiencia en Java, C#
@@ -133,7 +136,7 @@
     </section>
 
     <!-- SECCION SKILLS -->
-    <section class="skills" id="skills">
+    <section class="skills hidden" id="skills">
         <div class="contenido-seccion">
             <h2>Skills</h2>
             <div class="fila">
@@ -230,7 +233,7 @@
     </section>
 
     <!-- SECCION EXPERIENCIA -->
-    <section id="experiencia" class="experiencia">
+    <section id="experiencia" class="experiencia hidden">
         <div class="contenido-seccion">
             <h2>Curriculum</h2>
             <div class="fila">
@@ -307,7 +310,7 @@
     </section>
 
     <!-- SECCION PROYECTOS -->
-    <section id="proyectos" class="proyectos">
+    <section id="proyectos" class="proyectos hidden">
         <div class="contenido-seccion">
             <h2>PROYECTOS</h2>
             <div class="galeria">
@@ -344,7 +347,7 @@
     </section>
 
     <!-- SECCION CONTACTO -->
-    <section id="contacto" class="contacto">
+    <section id="contacto" class="contacto hidden">
         <div class="contenido-seccion">
             <h2>CONTACTO</h2>
             <div class="fila">
@@ -381,7 +384,7 @@
     </section>
 
     <!-- footer -->
-    <footer>
+    <footer class="hidden">
         <a href="#inicio" class="arriba">
             <i class="fa-solid fa-angles-up"></i>
         </a>
