@@ -38,4 +38,5 @@ function efectoHabilidades(){
 //detecto el scrolling para aplicar la animacion de la barra de habilidades
 window.onscroll = function(){
     efectoHabilidades();
-} 
+}
+document.getElementById('theme-toggle').addEventListener('click', () => { document.body.classList.toggle('light-theme'); });
