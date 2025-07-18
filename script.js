@@ -39,4 +39,11 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 }
-document.getElementById('theme-toggle').addEventListener('click', () => { document.body.classList.toggle('light-theme'); });
+
+const themeToggle = document.getElementById('theme-toggle');
+themeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('light-theme');
+    themeToggle.innerHTML = document.body.classList.contains('light-theme')
+        ? '<i class="fa-solid fa-sun"></i>'
+        : '<i class="fa-solid fa-moon"></i>';
+});
